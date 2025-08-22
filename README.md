@@ -29,7 +29,7 @@
 
 ### 3. 语义情感分析
 
-- **模型**：使用微调过的 `j-hartmann/emotion-english-distilroberta-base` 模型（准确率约为 66%）。
+- **模型**：使用微调过的 `emotion-english-distilroberta-base` 模型（准确率约为 66%）。
 - **流程**：
   - 将书籍描述分句，分别进行情感分析。
   - 汇总每段描述的情感得分，保留每种情感类型（如快乐、悬疑、难过等）的最高分。
